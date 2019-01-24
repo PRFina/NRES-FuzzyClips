@@ -46,6 +46,7 @@
 /***************************************************************************/
 
 #include "clips.h"
+#include "time.h"
 
 void UserFunctions(void);
 void EnvUserFunctions(void *);
@@ -77,8 +78,21 @@ void UserFunctions()
 void EnvUserFunctions(
   void *environment)
   {
+  	extern int get_day_from_date(void *);
+  	EnvDefineFunction2(environment,"get-day-from-date",'i', 
+  					 PTIF get_day_from_date,"get_day_from_date",
+  					 "11k");
 #if MAC_XCD
 #pragma unused(environment)
 #endif
   }
+
+// Custom function to get elapsed day from a date encoded in a string
+int get_day_from_date(void *environment){
+
+	struct tm tm;
+	strptime(EnvRtnLexeme(environment,1), "%d-%m-%y", &tm);
+	return tm.tm_yday;
+
+}
 
