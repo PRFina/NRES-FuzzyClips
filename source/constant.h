@@ -91,7 +91,7 @@
 #endif
 
 #ifndef BANNER_STRING
-#define BANNER_STRING "         FuzzyCLIPS (6.31 2/26/18)\n"
+#define BANNER_STRING "         NRES-FuzzyCLIPS (6.31 21/01/19)\n"
 #endif
 
 /*************************/
