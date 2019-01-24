@@ -850,7 +850,7 @@ proflfun.o: setup.h argacces.h symbol.h fuzzyval.h tmpltdef.h expressn.h
 proflfun.o: exprnops.h evaluatn.h constant.h userdata.h constrct.h moduldef.h
 proflfun.o: scanner.h pprint.h constrnt.h factbld.h pattern.h match.h
 proflfun.o: network.h ruledef.h cstrccom.h agenda.h reorder.h factmngr.h
-proflfun.o: multifld.h fuzzylv.h dffnxfun.h extnfunc.h classcom.h extobj.h
+proflfun.o: multifld.h fuzzylv.h dffnxfun.h extnfunc.h classcom.h
 proflfun.o: genrccom.h genrcfun.h object.h memalloc.h msgcom.h router.h
 proflfun.o: prntutil.h sysdep.h proflfun.h
 reorder.o: setup.h memalloc.h tmpltdef.h expressn.h exprnops.h evaluatn.h
@@ -980,7 +980,7 @@ sysdep.o: cstrcpsr.h emathfun.h filecom.h iofun.h memalloc.h miscfun.h
 sysdep.o: multifun.h parsefun.h prccode.h prdctfun.h proflfun.h prcdrfun.h
 sysdep.o: router.h prntutil.h sortfun.h strngfun.h textpro.h utility.h
 sysdep.o: watch.h sysdep.h dffctdef.h genrccom.h genrcfun.h object.h
-sysdep.o: globldef.h cfdef.h fuzzydef.h extobj.h developr.h
+sysdep.o: globldef.h cfdef.h fuzzydef.h developr.h
 textpro.o: setup.h commline.h memalloc.h argacces.h symbol.h fuzzyval.h
 textpro.o: tmpltdef.h expressn.h exprnops.h evaluatn.h constant.h userdata.h
 textpro.o: constrct.h moduldef.h scanner.h pprint.h constrnt.h factbld.h
@@ -1081,7 +1081,7 @@ xedit.o: router.h prntutil.h sysdep.h bmathfun.h exprnpsr.h utility.h watch.h
 xedit.o: modulbsc.h bload.h exprnbin.h symblbin.h bsave.h rulebsc.h engine.h
 xedit.o: drive.h incrrset.h rulecom.h crstrtgy.h dffctdef.h dffctbsc.h
 xedit.o: tmpltbsc.h factcom.h facthsh.h globldef.h globlbsc.h globlcom.h
-xedit.o: genrccom.h genrcfun.h object.h extobj.h commline.h xsetup.h xclips.h
+xedit.o: genrccom.h genrcfun.h object.h commline.h xsetup.h xclips.h
 xedit.o: xedit.h xmenu.h xmenu_file.h xclipstext.h
 xmain.o: setup.h sysdep.h commline.h symbol.h fuzzyval.h tmpltdef.h
 xmain.o: expressn.h exprnops.h evaluatn.h constant.h userdata.h constrct.h
